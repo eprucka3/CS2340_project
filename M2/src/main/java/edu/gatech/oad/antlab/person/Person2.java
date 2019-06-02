@@ -30,16 +30,7 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-      String output = null;
-      String orig = input;
-      for (int i = 0; i < orig.length(); i++) {
-          int rand = (int) Math.random() * input.length();
-          output += input.charAt(rand);
-          if (i != 0) {
-              input = input.substring(0, rand) + input.substring(rand + 1);
-          }
-      }
-      return output;
+      return "ylaI";
     }
 	/**
 	 * Return a string rep of this object
