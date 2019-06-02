@@ -28,5 +28,10 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
+jar {
+    baseName = 'gs-gradle'
+    version = '0.1.0'
+}
+
 // Define the main class for the application
 mainClassName = 'GradleTest.App'
