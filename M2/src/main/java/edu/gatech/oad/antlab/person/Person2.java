@@ -30,6 +30,7 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
+<<<<<<< HEAD
       String output = null;
       String orig = input;
       for (int i = 0; i < orig.length(); i++) {
@@ -40,6 +41,9 @@ public class Person2 {
           }
       }
       return output;
+=======
+      return "ylaI";
+>>>>>>> refs/remotes/origin/master
     }
 	/**
 	 * Return a string rep of this object
